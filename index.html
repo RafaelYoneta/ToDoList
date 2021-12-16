@@ -45,12 +45,15 @@
     <script >
         
         window.dataLayer = window.dataLayer || []
-        function gtag(){dataLayer.push(arguments);}
+        function gtag(){dataLayer.push({
+            event:'sign_up',
+            method:'rafael.yoneta@teste.com'
+        });}
         gtag('js', new Date())
     
-        gtag('config', 'GTM-THM4WGP')
+        //gtag('config', 'GTM-THM4WGP')
     
-        gtag('event', 'sign_up', { 'method': 'rafael.yoneta@gmail.com' })
+        //gtag('event', 'sign_up', { 'method': 'rafael.yoneta@gmail.com' })
     
     
         </script>
