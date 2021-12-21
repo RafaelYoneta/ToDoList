@@ -166,6 +166,7 @@ const Main = {
 
             this.task=newTaskState
             console.log(newTaskState)
+            console.error('testando, deu erro aqui')
 
             localStorage.setItem('tasks',JSON.stringify(newTaskState))            
 
