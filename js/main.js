@@ -166,7 +166,7 @@ const Main = {
 
             this.task=newTaskState
             console.log(newTaskState)
-            console.error('testando, deu erro aqui')
+            fetch('https://game-app-one.herokuapp.com/api/products/')
 
             localStorage.setItem('tasks',JSON.stringify(newTaskState))            
 
